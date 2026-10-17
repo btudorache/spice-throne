@@ -2,6 +2,12 @@
 
 A fast three-lane siege game for the **Meteor Dodge breadboard**: an Arduino UNO with a 1.8" SPI TFT, three buttons, one yellow LED and three green LEDs. No rewiring is needed.
 
+| Title | Siege | Worm | Petition | Defeat |
+|---|---|---|---|---|
+| ![Title screen](docs/images/title.png) | ![Units fighting in three lanes](docs/images/battle.png) | ![Sandworm swallowing the middle lane](docs/images/worm.png) | ![Petition card leaned left, showing its bargain](docs/images/petition.png) | ![Citadel fallen screen](docs/images/fallen.png) |
+
+*Screenshots from the desktop simulator, shown at 2× scale. The strip under each screen shows the LEDs: yellow on the left, the three green LEDs on the right.*
+
 **The three buttons are the three lanes.** House Vulkar's troops pour out of the gate at the top and march down three lanes toward your wall.
 
 - **Deploy:** tap LEFT, POWER or RIGHT to send the unit in your hand down that lane. Your hand shows the current unit and the next one, drawn from your deck, and each unit costs spice. Spice refills on its own.
