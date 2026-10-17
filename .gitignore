@@ -1,0 +1,14 @@
+# build output
+build/
+build_*/
+*.hex
+*.elf
+
+# simulator output
+tools/sim/out/
+tools/sim/sim
+tools/sim/sim.exe
+
+# python
+__pycache__/
+tools/content/_scratch/
